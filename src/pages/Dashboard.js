@@ -35,7 +35,7 @@ const Dashboard = ({ user }) => {
           <div className='title-underline'></div>
           <div className='title'>
             <p className='invite'>
-              We want to invite you for Inam and Sania's wedding
+              We want to invite you for Our daughter Sania Angra's wedding
             </p>
             <p className='invite'>Tuesday 3rd may 2022</p>
           </div>
@@ -45,12 +45,7 @@ const Dashboard = ({ user }) => {
           <div className='momdad-img'>
             <img src={momdad} alt='' />
           </div>
-          <div className='texting'>
-            <h5>From</h5>
-            <p className='invite'>BHARAT ANGRA</p>
-            <p className='invite'>NEELAM ANGRA</p>
-            <p className='invite'>SHUBHAM ANGRA</p>
-          </div>
+
           <div className='bagwan'>
             <img src={wedding} alt='' />
           </div>
@@ -71,7 +66,7 @@ const Wrapper = styled.section`
   }
   .momdad {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
     margin-top: 1rem;
   }

@@ -21,7 +21,7 @@ const Navbar = () => {
             Family
           </Link>
           <Link className='link' to={'/login'}>
-            InvitationCard
+            Card
           </Link>
         </div>
       </nav>
